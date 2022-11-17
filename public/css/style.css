@@ -151,7 +151,7 @@ td 	{vertical-align:middle;font-size:13px;font-weight:400;padding:8px 20px;}
 .head.wide a 					{color:#505050;}
 .head.wide a:hover,
 .head.wide a:focus 		{color:#de0603;}
-.head .logo 				{float:left;height:100%;display:table;}
+.head .logo 				{float:left;height:100%;display:table;margin-top: 20px}
 .head .logo a 				{display:table-cell;vertical-align:middle;width:100%;height:100%;text-align:center;}
 .head .logo img 			{display:inline;max-width:90%;}
 .head nav 					{height:100%;display:table;}
