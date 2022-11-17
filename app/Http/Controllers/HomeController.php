@@ -4,14 +4,25 @@ namespace App\Http\Controllers;
 
 use App\Models\Message;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-    public function index(Request $request, $code)
+    public function index(Request $request, $code = null)
     {
-        $message = Message::where('code', $code)->firstOrFail();
+        if(is_null($code)) {
+            $content = 'sPhoton brings the Boys out!';
+        }
+        else {
+            $message = Message::where('code', $code)->first();
 
-        return view('welcome', compact('message'));
+            if(is_null($message)){
+                $content = "Hong được đâu bé ơiiiii";
+            }
+            else {
+                $content = $message->message;
+            }
+        }
+
+        return view('welcome', compact('content'));
     }
 }

@@ -49,22 +49,22 @@ td 	{vertical-align:middle;font-size:13px;font-weight:400;padding:8px 20px;}
   font-weight: normal;
   font-style: normal;
 }
- 
+
  [class^="tw-icon-"]:before, [class*=" tw-icon-"]:before {
   font-family: "tw social";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: none;
   width: 1em;
   text-align: center;
- 
+
   font-variant: normal;
   text-transform: none;
 }
- 
+
 .tw-icon-youtube:before { content: '\e817'; }
 .tw-icon-reddit:before { content: '\e818'; }
 .tw-icon-digg:before { content: '\e81a'; }
@@ -89,9 +89,9 @@ td 	{vertical-align:middle;font-size:13px;font-weight:400;padding:8px 20px;}
 .tw-icon-skype:before { content: '\e80d'; }
 .tw-icon-renren:before { content: '\e80e'; }
 .tw-icon-paypal:before { content: '\e80f'; }
-.tw-icon-picasa:before { content: '\e810'; } 
+.tw-icon-picasa:before { content: '\e810'; }
 .tw-icon-soundcloud:before { content: '\e811'; }
-.tw-icon-behance:before { content: '\e812'; } 
+.tw-icon-behance:before { content: '\e812'; }
 .tw-icon-google-circles:before { content: '\e813'; }
 .tw-icon-smashing:before { content: '\e816'; }
 
@@ -111,7 +111,7 @@ td 	{vertical-align:middle;font-size:13px;font-weight:400;padding:8px 20px;}
 .decor			{background:#3C444E url(../images/bgr/body_decor.jpg) 50% 50% no-repeat;color:#fff; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 .trees 			{background:url(../images/bgr/trees.png) 0 0 repeat-x;padding:86px 0 0 !important;position:relative;z-index:2;display:inline-block;width:100%;}
 .woods 		{background:url(../images/bgr/woods.png) 0 0 repeat-x;padding:250px 0 0;position:relative;z-index:2;display:inline-block;width:100%;}
-.dark			{background:#313140;color:#fff;}
+.dark			{background:#000;color:#fff;}
 .white 			{background:#fff;color:#313140;}
 
 .stars, .twinkling 	{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:block;}
@@ -246,7 +246,7 @@ input.red:focus,button.red:focus {background:#b71c1c;}
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
- 
+
 @-ms-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
@@ -256,7 +256,7 @@ input.red:focus,button.red:focus {background:#b71c1c;}
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
- 
+
 /*AUDIOPLAYER*/
 audio {display:none;visibility:hidden;}
 
@@ -283,7 +283,7 @@ audio {display:none;visibility:hidden;}
 }
 
 @media screen and (max-width: 800px) {
-.head								{height:auto;padding:10px 0 0;} 
+.head								{height:auto;padding:10px 0 0;}
 .head .wrap					{width:100%;text-align:center;float:left;}
 .head .logo						{width:100%;padding:3px 0 10px;}
 .head .logo a 					{display:block;}
@@ -310,7 +310,7 @@ audio {display:none;visibility:hidden;}
 }
 
 @media screen and (max-width: 650px) {
-.main {min-height:400px;}	
+.main {min-height:400px;}
 }
 
 @media screen and (max-width: 480px) {
