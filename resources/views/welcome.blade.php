@@ -17,7 +17,7 @@
 <div class="stars"></div>
 <div class="twinkling"></div>
 <!--wrapper-->
-<div class="wrap">
+<div class="">
     <!--header-->
     <header class="head">
         <!--logo-->
@@ -33,6 +33,9 @@
             <h1 data-in-effect="fadeIn">{{ $content }}</h1>
         </div>
     </main>
+    <div class="rocket">
+        <img src="/images/bgr/rocket.svg" width="50%">
+    </div>
     <!--//main-->
 </div>
 <!--//wrapper-->
