@@ -21,7 +21,7 @@
     <!--header-->
     <header class="head">
         <!--logo-->
-        <div class="logo"><a href="https://sphoton.com" title="sPhoton Greetings"><img src="/images/logo.png" alt="sPhoton Greetings" /></a></div>
+        <div class="logo"><a href="https://sphoton.com" title="sPhoton Greetings"><img src="/images/logo.webp" alt="sPhoton Greetings" /></a></div>
         <!--//logo-->
     </header>
     <!--//header-->
