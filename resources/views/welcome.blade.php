@@ -40,14 +40,6 @@
 </div>
 <!--//wrapper-->
 
-<!--audio player-->
-<audio controls autoplay>
-    <source src="/media/christmas.ogg" type="audio/ogg" />
-    <source src="/media/christmas.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-</audio>
-<!--//audio player-->
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="/js/jquery.lettering.js"></script>
